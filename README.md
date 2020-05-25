@@ -45,6 +45,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvadimbakaev%2Fflatmap.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvadimbakaev%2Fflatmap?ref=badge_large)
