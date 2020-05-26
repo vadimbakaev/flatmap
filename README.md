@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b485985888f14890a6ce90e15d4830c0)](https://app.codacy.com/manual/vadimbakaev/flatmap?utm_source=github.com&utm_medium=referral&utm_content=vadimbakaev/flatmap&utm_campaign=Badge_Grade_Dashboard)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvadimbakaev%2Fflatmap.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvadimbakaev%2Fflatmap?ref=badge_shield)
 
 
