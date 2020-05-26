@@ -12,6 +12,7 @@
     "@types/react-dom": "^16.9.8",
     "antd": "^4.2.5",
     "babel-plugin-import": "^1.13.0",
+    "codacy-coverage": "^3.4.0",
     "customize-cra": "^0.9.1",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
@@ -24,7 +25,17 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test"
+    "test": "react-app-rewired test",
+    "test-coverage": "react-app-rewired test --coverage && cat ./coverage/lcov.info | codacy-coverage"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/*.{ts,tsx,js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
