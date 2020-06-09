@@ -8,7 +8,7 @@ const position: LatLngTuple = [5, 35];
 const MapContent: FC = () => {
   return (
     <div className="map">
-      <Map center={position} zoom={2}>
+      <Map center={position} zoom={2} zoomControl={false}>
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
