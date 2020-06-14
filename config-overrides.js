@@ -7,11 +7,13 @@ module.exports = override(
     style: true,
   }),
   addLessLoader({
-    javascriptEnabled: true,
-    modifyVars: {
-      hack: `true;@import "${require.resolve(
-        "./src/theme/antd-override.less"
-      )}";`,
+    lessOptions: {
+      javascriptEnabled: true,
+      modifyVars: {
+        hack: `true;@import "${require.resolve(
+          "./src/theme/antd-override.less"
+        )}";`,
+      },
     },
   })
 );
