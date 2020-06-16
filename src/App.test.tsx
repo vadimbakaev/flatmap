@@ -3,7 +3,7 @@ import { render } from "@testing-library/react";
 import App from "./App";
 
 test("renders learn react link", () => {
-  const { getByRole } = render(<App />);
-  const button = getByRole("button", { name: /Button/i });
-  expect(button).toBeInTheDocument();
+  const { getByText } = render(<App />);
+  const companies = getByText(/Companies/i);
+  expect(companies).toBeInTheDocument();
 });

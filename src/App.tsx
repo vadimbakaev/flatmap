@@ -17,7 +17,7 @@ const App: FC = () => {
           setGeo(data);
         })
         .catch(console.error);
-  });
+  }, []);
 
   return (
     <div className="App">
